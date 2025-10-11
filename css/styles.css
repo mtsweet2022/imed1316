@@ -37,7 +37,7 @@ p {
 .paragraph-one {
     position: relative;
     top: 30px;
-    font-family: "Crimson Text", serif;
+    font-family: var(--fontFamily) !important;
 }
 
 .paragraph-one-img {
@@ -65,7 +65,7 @@ p {
     margin-top: 15px;
     border: 10px solid var(--accentColor) !important;
     border-radius: 50%;
-    clip-path: circle(50% at 50% 50%);
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
     
 }
 
