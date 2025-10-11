@@ -65,7 +65,7 @@ p {
     margin-top: 15px;
     border: 10px solid var(--accentColor) !important;
     border-radius: 50%;
-    clip-path: polygon(50% 0%, 0 30%, 100% 30%);
+    clip-path: polygon(50% 24%, 0 0, 100% 0);
     
 }
 
