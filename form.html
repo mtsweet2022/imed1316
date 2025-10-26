@@ -12,9 +12,10 @@
       <!-- text field-->
       <label for="first-name">First Name</label>
       <input type="text" name="fName" id="first-name" required />
+      <br />
 
       <!-- drop-down menu-->
-      <label for="color">Choose a color</label>
+      <label for="colors">Choose a color</label>
       <select name="colors" id="colors" required>
         <option value="">Select</option>
         <option value="White">White</option>
@@ -23,6 +24,13 @@
         <option value="Blue">Blue</option>
         <option value="Purple">Purple</option>
       </select>
+
+      <!-- radio buttons-->
+      <inpput type="radio" name="myDecision" id="myRadio" value="Yes" /> Yes<br />
+      <inpput type="radio" name="myDecision" id="myRadio" value="No" /> No<br />
+      <br />
+
+      <input type="submit" value="Submit Form" id="submit" />
     </form>
 
     <script src="js/form.js"></script>
