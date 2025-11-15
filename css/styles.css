@@ -73,3 +73,8 @@ p {
     position: relative;
     margin-bottom: 30px;
 }
+
+.lottiefiles-container {
+    background-color: lightgrey;
+    padding: 20px;
+}
