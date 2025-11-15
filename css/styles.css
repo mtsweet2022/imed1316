@@ -74,7 +74,8 @@ p {
     margin-bottom: 30px;
 }
 
-.lottiefiles-container {
-    background-color: lightgrey;
-    padding: 20px;
+.lottiefiles {
+    background-color: var(--accentColor) !important;
+    padding: 25px;
+    color: #ffffff !important
 }
