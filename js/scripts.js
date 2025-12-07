@@ -4,7 +4,7 @@ ScrollReveal().reveal('.headline');
 
 swal.fire({
           title: "Welcome to Fun and Fantasy!",
-          text: "Explore a world of imagination and adventure.",
+          text: "Please note that links in this site may be unfinished, and lead to errors when clicked..",
           icon: "info",
           confirmButtonText: "Start Exploring",
         });
